@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: "Cabin", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* Header */
+
+header {
+    align-items: flex-end;
+}
+
+.bl {
+    color: rgb(102, 157, 179);
+}
+
+.blue {
+    color: rgb(192, 216, 248);
+}
+
+.lan {
+    font-weight: 900;
+    font-size: 24px;
+    letter-spacing: 2px;
+}
+
+nav {
+    box-shadow: 0px 5px 10px 0px rgb(102, 157, 179);
+}
+
+nav a.navbar-brand {
+    font-size: 35px;
+}
+
+nav a.sm {
+    font-size: 25px;
+    display: none;
+}
+
+nav .navbar-nav a {
+    font-size: 1.5rem;
+    color: rgb(102, 157, 179);
+}
+
+
+/* ................... */
+
+
+/* Main */
+
+.info h4 {
+    width: 67%;
+    margin: 0 auto;
+}
+
+.info a {
+    border: 1px solid rgb(102, 157, 179);
+    color: rgb(102, 157, 179);
+}
+
+.info a:hover {
+    background-color: rgb(102, 157, 179);
+    color: #fff;
+    transition: ease 0.5s;
+}
+
+.my-img img {
+    z-index: -1000;
+}
+
+.my-skills {
+    background-color: rgb(102, 157, 179);
+}
+
+
+/*  */
+
+
+/* Projects styles */
+
+.card {
+    box-shadow: rgba(0, 0, 0, 0.252) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    border: 5px solid rgb(192, 216, 248);
+    cursor: pointer;
+}
+
+.card img {
+    max-height: 265px;
+    min-height: 265px;
+}
+
+.progress-bar {
+    transition: ease 0.5s;
+    background-color: rgb(226, 96, 88);
+}
+
+.progress {
+    background-color: rgb(192, 216, 248);
+}
+
+
+/* ....................*/
+
+
+/* Footer */
+
+footer {
+    color: rgb(102, 157, 179);
+    box-shadow: 0px -3px 10px 0px rgb(8, 76, 102);
+}
+
+
+/* ....................*/
+
+
+/* Media */
+
+@media only screen and (max-width: 600px) {
+    nav a.lg {
+        display: none;
+    }
+    nav a.sm {
+        display: block;
+    }
+    footer {
+        flex-direction: column-reverse;
+        font-size: 18px !important;
+        padding-top: 10px;
+    }
+}
+
+@media only screen and (max-width: 990px) {
+    footer span {
+        white-space: nowrap;
+    }
+}
